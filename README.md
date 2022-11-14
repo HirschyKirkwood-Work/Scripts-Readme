@@ -21,6 +21,8 @@ Installs Windows and DCU updates (if DCU is already present on machine) remotely
 ## Updates
 This is for when you're updating a freshly imaged computer (Some of you don't do this, I'm looking at you. You know who you are.)
 
+This relies on other scripts. There is a reason there is a "New Machine update flashdrive contents" in the DFS. Make a copy of it to a flashdrive and use it there. 
+
 Monitor the script to say yes,no,etc to prompts. By default it will ask you if you have to install another version of office (does not uninstall for you) and Oracle.
 
 It will detect model and run updates and install apps based on the brand. It will also give you machine name and MAC depending on the user running the script. Update lines 23 and 26 to match your username and computer name and it will output them to your C:\
