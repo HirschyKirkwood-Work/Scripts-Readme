@@ -1,6 +1,6 @@
 If there is a script in the Google Drive that isn't here, it's probably not finished or not important for anyone besides me.
 
-#Important
+# Important
 ## Multi Office Installer
 Presents  you with a few options for version of Office to install. Select one and press "OK."
 ## Oracle12CInstall
@@ -15,6 +15,8 @@ Uninstalls and reinstalls SCCM. Should be in a fully operational state now. Some
 Installs Windows and DCU updates (if DCU is already present on machine) remotely. Just feed it a machine name.
 ## Updates
 This is for when you're updating a freshly imaged computer (Some of you don't do this, I'm looking at you. You know who you are.)
+
+Monitor the script to say yes,no,etc to prompts. By default it will ask you if you have to install another version of office (does not uninstall for you) and Oracle.
 
 It will detect model and run updates and install apps based on the brand. It will also give you machine name and MAC depending on the user running the script. Update lines 23 and 26 to match your username and computer name and it will output them to your C:\
 ```
