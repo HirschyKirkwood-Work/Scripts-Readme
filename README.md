@@ -1,3 +1,5 @@
+There's a lot in a name. They are pretty self descriptive of what they do, at least generally. Most of them are fullproof so if you need to something, it will prompt you.
+
 If there is a script in the Google Drive that isn't here, it's probably not finished or not important for anyone besides me.
 
 # Important
