@@ -51,8 +51,10 @@ Sets firewall rues for FMP
 Just runs and opens a gpresult.
 ## RestartRemoteComputer (bat and ps1)
 Just feed it the name and it will reboot
+## GetRemovePassthroughMAC
+Feed it a name and it will get you the MAC address. Dell only. (for some reason ptags doesn't work on non-laptops. This is a dell issue)
 ## Remote-Serial
-Feed it a name and it will get the serial (for some reason ptags doesn't work on non-laptops. This is a dell issue)
+Feed it a name and it will get the serial.
 ## RemoteAudioUpdates
 Feed it a name and it will update the REaltek audio driver. This is only useful for the random audio issues we've been having as of November 2022. Wouldn't recommend using in the future.
 
