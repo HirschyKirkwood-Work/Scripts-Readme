@@ -11,6 +11,9 @@ You just have to dismiss the java install window when it finishes.
 Not as polished as 12c, but it's also a slightly different process. Will finish it at some point.
 ## Reinstall SCCM
 Uninstalls and reinstalls SCCM. Should be in a fully operational state now. Sometimes it'll through false errors when deleting the CCM folders. Should be fine to ignore.
+Run .\SCCMAtions.bat normally from a non-network drive. It really hates it otherwise.
+## SCCMActions.bat
+Runs all the actions. One will error. It doesn't exist and I've never removed it. OH well.
 ## Remoteupdates
 Installs Windows and DCU updates (if DCU is already present on machine) remotely. Just feed it a machine name.
 ## Updates
